@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'byuniq';
+    src:url(byuniq.ttf)
+}
+@font-face{
+    font-family: 'lettering';
+    src:url(lettering.ttf)
+}
+
+#wrap{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#header{
+	background: url(header.png);
+	background-size: cover;
+	border-bottom-right-radius: 50px;
+	width: 730px;
+	height: 300px;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	float: right;
+}
+#judul{
+	font-size: 70px;
+	text-align: center;
+	font-family: byuniq;
+	padding: 100px 40px 0 0;
+}
+#judul a{
+	color:#254B72;
+	font-family: lettering;
+	text-decoration: none;
+}
+#judul a:hover{
+	color: #254B73;
+}
+.desc{
+	font-size: 30px;
+	font-family: byuniq;
+	color: #95B2BE;
+	text-align: center;
+	padding: 0 40px 0 0;
+}
+#menu ul{
+	float: right;
+	background: #254B73;
+	padding: 0 0px;
+	position: relative;
+	box-shadow: 0 0 10px rgba(0,0,0.25);
+	list-style: none;
+	width: 730px;
+}
+#menu ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li:hover{
+	background: #254B73;
+}
+#menu ul li a{
+	display: block;
+	color: #E0E2E3;
+	padding: 10px 20px;
+	font-family: byuniq;
+	text-decoration: none;
+}
+#menu ul li:hover a{
+	color: #E0E2E3;
+	font-family: byuniq;
+}
+#menu ul li:hover > ul{
+	display: block;
+}
+#menu ul ul {
+	background: #254B73;
+	position: absolute;
+	padding: 0;
+	top:100%;
+	display: none;
+	width: auto;
+}
+#menu ul ul li{
+	float: none;
+	position: #E0E2E3;
+}
+#menu ul ul li a{
+	padding: 10px 30px;
+	color:#E0E2E3;
+}
+#menu ul ul li a:hover{
+	background: #254B73;
+	color: #E0E2E3;
+}
+#menu ul ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+#kiri{
+	border-top-left-radius: 50px;
+	background-color: #E0E2E3;
+	width: 250px;
+	height: auto;
+	margin: 0 0 20px;
+	float: left;
+	list-style: none;
+	box-shadow: 0 0 10px rgba(0,0,0.25);
+}
+#kiri ul{
+	margin: 0 0 20px 20px;
+	padding: 0;
+	list-style: none;
+	width: 200px;
+}
+#kiri li{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#kiri h2{
+	margin: 0px 0 0px 0;
+	padding: 5px 12px;
+	color: #E0E2E3;
+	font-family: byuniq;
+	font-size: 20px;
+	background: #254B73;
+}
+#kiri a{
+	display: block;
+	padding: 3px 10px;
+	font-family:byuniq;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted blue;
+}
+#kiri a:hover{
+	background: #254B73;
+	color: #E0E2E3;
+}
+#konten{
+	background-color: #E0E2E3;
+	width: 690px;
+	height: auto;
+	margin: 0 0 20px;
+	padding: 20px 20px 20px 20px;
+	float: right;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.posttitle{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: lettering;
+	color: #254B72;
+}
+.posttitle a{
+	text-decoration: none;
+}
+.post{
+	margin: 0 20px 0 20px;
+	text-align: justify;
+}
+
+b a {
+	color: #254B73;
+	font-family: byuniq;
+	text-decoration: none;
+}
+img{
+	width: 30%;
+}
+#logo {
+	width: 250px;
+	height: 220px;
+}
+#footer{
+	background-color:#254B73;
+	padding: 20px 0 0 0;
+	width: 1000px;
+	height: 90px;
+	clear: both;
+	margin: 20 0;
+	text-align: center;
+	color: #E0E2E3;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
