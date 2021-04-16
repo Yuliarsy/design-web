@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'byuniq';
+    src:url(byuniq.ttf)
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: byuniq;
+    overflow: hidden;
+}
+.home {
+    background: url('source/bg.jpg') no-repeat;
+    background-color: #a702c4;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    min-height: 500ox;
+}
+.home .wrapper-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .wrapper-center h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.home .wrapper-center img{
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid #a702c4;
+    transition: transform .7s ease-in-out;
+}
+.home .wrapper-center img:hover{
+    transform: scale(1.1);
+}
+.home .wrapper-center ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.home .wrapper-center ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top : 70px ;
+    padding : 10px 30px;
+    border: 1px transparent;
+}
+
+.home .wrapper-center ul li a:hover{
+    background-color:  #a702c4;
+    color: white;
+}
+
+.tentangsaya{
+    background-color: #a702c4;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    line-height: 100%;
+    vertical-align: center;
+    display: flex;
+    align-content: center;
+}
