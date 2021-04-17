@@ -84,11 +84,10 @@ body {
     padding-bottom: 10px;
 }
 .tentangsaya .wrapper p{
-    font-size: 2rem;
+    font-size: 27px;
     line-height: 20px;
 }
-
-*/
+/* =============== Section Skill yeah  =========== */
 .section{
     padding: 100px 0;
 }
@@ -183,9 +182,10 @@ body {
     padding: 100px 0;
 }
 .contact{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100vh;
     min-height: 500px;
-    color: #85099b;
+    color: #1B1464;
     background-color: #ece9fc;
     font-size: 15px;
 }
@@ -204,7 +204,7 @@ body {
     left:50%;
     width: 180px;
     height: 5px;
-    background:#85099b;
+    background:#1B1464;
     transform: translateX(-50%);
 }
 .contact .contact-content{
@@ -254,7 +254,7 @@ body {
     padding: 15px 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    background-color: #85099b;
+    background-color: rgb(247, 114, 114);
     color: #fff;
     display: inline-block;
     font-size: 15px;
@@ -264,7 +264,7 @@ body {
 
 .contact .contact-content .left .icons a:hover{
     padding: 15px 20px;
-    background-color: #85099b;
+    background-color: rgb(182, 77, 77);
     color: #fff;
     display: inline-block;
     font-size: 15px;
